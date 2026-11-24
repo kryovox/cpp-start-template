@@ -93,3 +93,5 @@ g++ -std=c++17 -Wall -Wextra -pedantic practice/01-hello-cpp/main.cpp -o hello
 
 Структура организована по примеру [ado-net-start-template](https://github.com/MaximBytecamp/ado-net-start-template)
 и адаптирована к дисциплине C++.
+
+Для практикумов Universal Trainer предусмотрен [регламент сдачи](docs/SUBMIT.md#universal-trainer--регламентированная-сдача).
