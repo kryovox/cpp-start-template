@@ -14,7 +14,7 @@
 | Группа | Группа |
 | Дисциплина | МДК.01.05 Основы программирования на языке C++ |
 | Курс и учебный год | Курс · годы обучения |
-| Язык | C++17 |
+| Язык | C++20 |
 | Среда разработки | Укажите свою среду |
 
 **Навигация:** [Начало работы](docs/START.md) · [Практика](practice/README.md) · [Домашние задания](homework/README.md) · [Контрольные](exams/README.md) · [Темы курса](docs/COURSE.md)
@@ -79,7 +79,7 @@
 При настроенном компиляторе GCC из корня репозитория:
 
 ```bash
-g++ -std=c++17 -Wall -Wextra -pedantic practice/01-hello-cpp/main.cpp -o hello
+g++ -std=c++20 -Wall -Wextra -pedantic practice/01-hello-cpp/main.cpp -o hello
 ```
 
 Запуск в PowerShell: `./hello.exe`. В Linux или macOS: `./hello`.
@@ -90,8 +90,5 @@ g++ -std=c++17 -Wall -Wextra -pedantic practice/01-hello-cpp/main.cpp -o hello
 Новые материалы можно получать через вкладку **Actions**.
 Настройка и правила сохранения своих работ описаны в [UPDATES.md](docs/UPDATES.md).
 Перед занятием синхронизируйте локальную копию с GitHub.
-
-Структура организована по примеру [ado-net-start-template](https://github.com/MaximBytecamp/ado-net-start-template)
-и адаптирована к дисциплине C++.
 
 Для практикумов Universal Trainer предусмотрен [регламент сдачи](docs/SUBMIT.md#universal-trainer--регламентированная-сдача).
